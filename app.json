@@ -1,0 +1,18 @@
+{
+  "name": "Mister MD",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://files.catbox.moe/mb8ltv.png",//
+  "repository": "https://github.com/ArslanMDofficial/Mister-MD-Mini-V2",
+  "keywords": ["@Mister-MD"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || Mister MD🔰",
+      "required": false 
+    }
+  }
+}
